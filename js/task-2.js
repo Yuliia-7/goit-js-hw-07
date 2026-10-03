@@ -30,8 +30,8 @@ const images = [
 const gallery = document.querySelector('.gallery');
 
 function imageTemplate(img) {
-  return `<li class = "img-item">
-  <img src = '${img.url}' alt = '${img.alt}' width= 360px height= 300px/>
+  return `<li class="img-item">
+  <img src = '${img.url}' alt = '${img.alt}' width='360' height='300' />
    </li>`;
 }
 

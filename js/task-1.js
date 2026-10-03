@@ -9,5 +9,3 @@ categories.forEach(category => {
   console.log('Category:', title);
   console.log('Elements:', totalElem);
 });
-
-const gallary = document.querySelector('.gallary');
